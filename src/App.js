@@ -25,7 +25,7 @@ function App() {
 
  // Function to get dogs via API
  const getDogs = () => {
-   fetch(url + "/dog/")
+   fetch(url + "/dog")
    .then(response => response.json())
    .then(data => {
      console.log(data)
